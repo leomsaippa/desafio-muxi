@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/azul</color>
+    <color name="colorPrimaryDark">@color/azul</color>
+    <color name="colorAccent">@color/azul</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="preto">#000000</color>
+    <color name="azul">#3F51B5</color>
+    <color name="backGroundLista">#ADD8E6</color>
+</resources>

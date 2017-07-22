@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Desafio Muxi</string>
+    <string name="buttonID">Botao</string>
+    <string name="buttonText">Pesquisar frutas</string>
+    <string name="textViewText">Frutas</string>
+    <string name="preco">Preço</string>
+</resources>

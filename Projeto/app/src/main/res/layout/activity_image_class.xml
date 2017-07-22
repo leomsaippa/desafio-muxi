@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projeto.ImageClass"
+    android:background="@color/branco">
+
+
+        <TextView
+            android:id="@+id/textViewTituloID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="49dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/preto"/>
+
+
+        <ImageView
+            android:layout_width="270dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageViewID"
+            android:layout_below="@+id/textViewTituloID"
+            android:scrollbarSize="20dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:id="@+id/textViewPrecoID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:textColor="@color/preto"
+            android:text="@string/preco"/>
+
+        <TextView
+            android:id="@+id/textViewPrecoRealID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewPrecoID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:textColor="@color/preto" />
+
+
+        <TextView
+            android:id="@+id/textViewPrecoDolarID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewPrecoRealID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"
+            android:textColor="@color/preto"/>
+
+
+
+
+</RelativeLayout>

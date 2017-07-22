@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projeto.ListClass"
+    android:background="@color/branco">
+
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textViewText"
+        android:textSize="40dp"
+        android:textColor="@color/preto"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="7dp"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/listViewID"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="30dp" />
+
+    <ListView
+        android:id="@+id/listViewID"
+        android:layout_width="275dp"
+        android:layout_height="342dp"
+        android:background="@color/backGroundLista"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="450dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
