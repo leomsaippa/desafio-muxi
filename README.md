@@ -23,7 +23,7 @@ SDK (API Level entre 15 e 25)
 
 ### Instalação
 
-Para instalar o NDK, CMake e LLDB -> http://tools.android.com/tech-docs/new-build-system/gradle-experimental/migrate-to-stable?hl=pt-br
+Para [instalar](http://tools.android.com/tech-docs/new-build-system/gradle-experimental/migrate-to-stable?hl=pt-br) o NDK, CMake e LLDB. 
 
 Adicione o comando abaixo caso não haja ao build.gradle(Module app)
 ```
@@ -69,7 +69,7 @@ A primeira prioridade implementada foi o consumo do Json. A princípio foi desen
 Foi utilizado então a biblioteca [Volley](https://developer.android.com/training/volley/index.html) para auxiliar no consumo do Json e o resultado foi satisfatório.
 A segunda prioridade implementada foi a utilização do código nativo. A princípio foi utilizado o [ndk-build](https://developer.android.com/ndk/guides/index.html?hl=pt-br), este foi executado sem problemas.
 Apenas como facilitador, a nova estratégia foi utilizar o [CMake](https://cmake.org/) para auxiliar no uso de código nativo e o resultado foi satisfatório.
-A terceira prioridade foi implementada utilizando a própria plataforma do Android Studio. Foi utilizado o [Material Design] (https://material.io/guidelines/) para definir um botão com um layout mais interessante e transições nas telas(limitadas as API > 20).
+A terceira prioridade foi implementada utilizando a própria plataforma do Android Studio. Foi utilizado o [Material Design](https://material.io/guidelines/) para definir um botão com um layout mais interessante e transições nas telas(limitadas as API > 20).
 Algumas outras funcionalidades foram implementadas, como suporte a mudança de orientação de telas sem perder o estado atual.
 Para isso foi adicionado ao arquivo AndroidManifest.xml o trecho abaixo para cada classe
 ```
@@ -105,7 +105,7 @@ Foi definido um pequeno teste para verificar se o teste de código nativo estava
 * [Junit](http://junit.org/junit4/) - Framework utilizado para testes
 * [Volley](https://developer.android.com/training/volley/index.html) - Biblioteca para consumir o Json
 * [Picaso](http://square.github.io/picasso/) - Biblioteca para manusear imagens 
-* [Material Design] (https://material.io/guidelines/) - Linguagem de design desenvolvida pelo Google 
+* [Material Design](https://material.io/guidelines/) - Linguagem de design desenvolvida pelo Google 
 * [CMake](https://cmake.org/) - Plataforma para compilação de código nativo
 
 
