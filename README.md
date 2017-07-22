@@ -1,6 +1,3 @@
-[11] README com explicações sobre o projeto, decisões tomadas, como gerar o apk e como rodar os testes
-
-
 # Desafio Muxi
 
 O aplicativo busca uma lista de frutas em Json na Web, salva suas informações(nome,preço em dólar e URL de uma imagem) e calcula o preço em real de cada fruta de forma assíncrona utilizando código nativo.
