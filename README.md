@@ -34,7 +34,7 @@ android{
 
 ```
 
-Verifique se o projeto já tem as dependências abaixos
+Verifique se o projeto já tem as dependências abaixos.
 Para adicionar as bibliotecas utilizadas, adicione ao build.gradle (Module app)
 ```
 dependencies {
