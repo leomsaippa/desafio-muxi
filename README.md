@@ -85,8 +85,9 @@ Um exemplo do APK está no projeto na pasta Key>DesafioMuxi.apk. Basta instalá-
 ## Rodando os testes
 
 Foram definidos pequenos testes para verificar como o apicativo se comporta. Para utilizá-los no Android Studio vá app>java>nome_pacote(androidTest) e app>java>nome_pacote(test).
+```
 **Observação: Se for realizar os testes em um dispositivo, verifique se a tela está ligada para que os testes ocorram de forma correta.**
-
+```
 ### Testes de tela
 
 O teste de tela verifica se o texto no botão está correto e clica para mudar de tela. Na nova tela, verifica se o título está com o texto correto e então clica em cada um dos elementos da lista de frutas e na nova tela, verifica se o nome da fruta foi carregado de forma correta.
